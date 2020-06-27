@@ -33,7 +33,7 @@ int main(){
       cout << "Sunday";
     }
     default:{
-      cout << "Looking forward to the Weekend";
+      cout << "Looking forward to the Weekend ";
     }
   }
 }
