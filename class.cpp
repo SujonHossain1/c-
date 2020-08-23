@@ -8,7 +8,7 @@ class Student{
    string job;
 
    void print(int id, string name, string job){
-     cout << "Id: " << id  <<", Name: "<< name << ", Stuent: " << job << endl;
+     cout << "Id: " << id  <<", Name: "<< name << ", Student: " << job << endl;
    }
 };
 
