@@ -13,10 +13,15 @@ class Student{
 };
 
 int main() {
-  Student s1;
-  s1.id = 2;
-  s1.name = "Rakib Shakib";
-  s1.job = "Student & Developer";
+  // Student s1;
+  // s1.id = 2;
+  // s1.name = "Rakib Shakib";
+  // s1.job = "Student & Developer";
 
-  s1.print(s1.id, s1.name, s1.job);
+  // s1.print(s1.id, s1.name, s1.job);
+  string name;
+  cin >> name;
+
+  cout << name;
+  
 }
