@@ -1,50 +1,50 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class Person
 {
 protected:
-    string name; // 
+    string name;
 
 public:
     int age;
     Person()
     {
-        cout<<"person constructor called"<<endl;
+        cout << "person constructor called" << endl;
     }
     Person(string name)
     {
         this->name = name;
     }
-    void setName(string name)  //public
+    void setName(string name) //public
     {
         this->name = name;
     }
     ~Person()
     {
-        cout<<"person destructor called"<<endl;
+        cout << "person destructor called" << endl;
     }
 };
 
-class Student: public Person
+class Student : public Person
 {
 public:
+    Person::setName;
     Student()
     {
-        cout<<"student constructor called"<<endl;
+        cout << "student constructor called" << endl;
     }
     Student(string name)
     {
         this->name = name;
-
     }
-    Person::setName;
+
     void displayName()
     {
-        cout<<"Your name is "<<name<<endl;
+        cout << "Your name is " << name << endl;
     }
     ~Student()
     {
-        cout<<"student destructor called"<<endl;
+        cout << "student destructor called" << endl;
     }
 };
 
